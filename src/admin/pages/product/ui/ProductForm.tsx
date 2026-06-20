@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router";
-import { X, SaveAll, Tag, Plus, Upload, CornerUpLeft } from "lucide-react";
+import { X, SaveAll, Tag, Plus, Upload } from "lucide-react";
 import { useForm } from "react-hook-form";
 
 import { AdminTitle } from "@/admin/components/AdminTitle";
