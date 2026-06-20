@@ -48,7 +48,7 @@ export interface FileUploadResponse {
   fileName: string;
 }
 
-const uploadFiles = async (files: Files[]) => {
+const uploadFiles = async (files: File[]) => {
   const uploadPromises = files.map(async (file) => {
     const formData = new FormData();
     formData.append("file", file);
